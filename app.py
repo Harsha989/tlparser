@@ -51,7 +51,7 @@ if __name__ ==  "__main__" :
                   ou_ = datetime.strptime(y,"%I:%M %p")
                   out_time = datetime.strftime(ou_, "%H:%M")
                   out_time = datetime.strptime(out_time,"%H:%M")
-                  sum += (out_time - int_time).total_seconds()/60/60
+                  total += (out_time - int_time).total_seconds()/60/60
                 line = line.readline()
                 cnt += 1
 
