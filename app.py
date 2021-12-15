@@ -54,5 +54,5 @@ if __name__ ==  "__main__" :
                   total += (out_time - int_time).total_seconds()/60/60
                 cnt += 1
 
-                st.write(f" {abs(total)} hours is the time spend by the author on this file ")
+            st.write(f" {abs(total)} hours is the time spend by the author on this file ")
 
