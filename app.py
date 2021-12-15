@@ -52,7 +52,6 @@ if __name__ ==  "__main__" :
                   out_time = datetime.strftime(ou_, "%H:%M")
                   out_time = datetime.strptime(out_time,"%H:%M")
                   total += (out_time - int_time).total_seconds()/60/60
-                line = line.readline()
                 cnt += 1
 
                 st.write(f" {abs(total)} hours is the time spend by the author on this file ")
